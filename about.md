@@ -5,8 +5,6 @@ Moataz Alghamdi works at the intersection of mathematics, scientific computing, 
 
 Dr. Alghamdi studies high-dimensional and uncertain systems, developing techniques that replace expensive full models with efficient, auditable surrogates. By combining adaptive sampling, probabilistic modeling, and low-rank approximations (including tensor-train decompositions), he enables analyses that would otherwise be computationally prohibitive, supporting design exploration, rigorous uncertainty quantification, and long-horizon decision-making across engineering, scientific computing, finance, and economics.
 
-He has served as a Graduate Researcher at KAUST and as a Visiting Researcher at IMATI-CNR (Pavia), where he developed greedy algorithms for tracking interacting eigencurves in parametric PDEs, integrated Gaussian Process Regression into simulation pipelines for low-regularity systems, and applied tensor-train methods to high-dimensional parametric models. Teaching includes TA roles in vector calculus/differential equations and applied mathematics, an instructor role at the Applied Mathematics School (Best Teacher Award), and mentoring of a master’s thesis. Scholarships include KGSP, the Saudi Cultural Mission Scholarship, and the KAUST Fellowship.  
-
 Looking forward, his aim is to translate advanced mathematical theory into explainable, practical systems with sustained impact across disciplines.
 
 
