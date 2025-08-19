@@ -1,14 +1,16 @@
- 
+# Profile
 
-Moataz Alghamdi earned a PhD in Applied Mathematics and Computational Sciences from King Abdullah University of Science and Technology (KAUST) under the supervision of Prof. Daniele Boffi. He also holds a BSc in Physics from the University of Washington, Seattle. His work sits at the intersection of mathematics, scientific computing, and machine learning, aimed at building tools that make complex systems tractable, high-performance, and transparent.
 
-Dr. Alghamdi studies high-dimensional and uncertain systems, developing mathematical and computational techniques that replace expensive full models with efficient surrogate representations. By combining adaptive sampling, probabilistic modeling, and low-rank/low-complexity approximations, he enables analyses that would otherwise be computationally prohibitive—supporting exploration of design spaces, rigorous uncertainty quantification, and long-horizon decision making across engineering, scientific computing, finance, and economics.
+Moataz Alghamdi works at the intersection of mathematics, scientific computing, and machine learning, building tools that make complex systems tractable, high-performance, and transparent. He earned a PhD in Applied Mathematics and Computational Sciences from King Abdullah University of Science and Technology (KAUST) under the supervision of Prof. Daniele Boffi. He also holds a BSc in Physics (minor in Mathematics) from the University of Washington-Seattle
 
-Looking forward, his aim is to translate advanced mathematical theory into auditable, practical systems with sustained impact across disciplines.
+Dr. Alghamdi studies high-dimensional and uncertain systems, developing techniques that replace expensive full models with efficient, auditable surrogates. By combining adaptive sampling, probabilistic modeling, and low-rank approximations (including tensor-train decompositions), he enables analyses that would otherwise be computationally prohibitive, supporting design exploration, rigorous uncertainty quantification, and long-horizon decision-making across engineering, scientific computing, finance, and economics.
+
+He has served as a Graduate Researcher at KAUST and as a Visiting Researcher at IMATI-CNR (Pavia), where he developed greedy algorithms for tracking interacting eigencurves in parametric PDEs, integrated Gaussian Process Regression into simulation pipelines for low-regularity systems, and applied tensor-train methods to high-dimensional parametric models. Teaching includes TA roles in vector calculus/differential equations and applied mathematics, an instructor role at the Applied Mathematics School (Best Teacher Award), and mentoring of a master’s thesis. Scholarships include KGSP, the Saudi Cultural Mission Scholarship, and the KAUST Fellowship.  
+
+Looking forward, his aim is to translate advanced mathematical theory into explainable, practical systems with sustained impact across disciplines.
 
 
 # Research Outline  
-## Principal Interests  
 
 
 ### 1. Probabilistic Modeling and Machine Learning
@@ -23,6 +25,84 @@ Low-rank approximation is pursued via the tensor-train (TT) decomposition techni
 
 ### 4. Simplifying Complex Mathematical Models
 Focus on parametric PDEs with high-dimensional parameter spaces, formulated at the level of the solution operator and associated spectral maps. Develop certified reduced models that balance fidelity and cost via parameter-aware adaptive sampling and rigorous a posteriori control, while treating spectral structure (eigenvalue branches and eigenspaces) as a primary output for stable mode tracking and provable complexity/accuracy guarantees.
+
+# Publications & Manuscripts
+
+### Published
+- **On the Matching of Eigensolutions to Parametric PDEs**  
+  *M. Alghamdi, F. Bertrand, D. Boffi, F. Bonizzoni, A. Halim, G. Priyadarshi*.  
+  Presented at the **ECCOMAS Congress, Oslo (2022)**.  
+  Introduced a methodology for reliably pairing eigensolutions arising in parametric PDEs, providing a framework for tracking spectral changes under parameter variations.
+  
+- **A Greedy Model Order Reduction Method for Parametric Elliptic PDEs**  
+  *M. Alghamdi, D. Boffi, F. Bonizzoni*.  
+  Submitted to *Journal of Computational and Applied Mathematics*.  
+  Develops a certified greedy algorithm for efficiently constructing reduced-order models in high-dimensional parameter domains, with explicit error estimates and complexity guarantees.  
+
+- **Data-Driven Method for Parametric PDE Eigenvalue Problems Using Gaussian Processes**  
+  *M. Alghamdi, F. Bertrand, D. Boffi, A. Halim*.  
+  Submitted to *Computational Methods in Applied Mathematics*.  
+  Proposes a GP-based surrogate modeling framework to approximate eigenvalue trajectories in parametric PDEs, improving accuracy in non-affine, irregular parameter regimes.  
+
+### In Preparation / Ongoing Work
+- **Robust and Efficient Tracking of Eigensolutions in High-Dimensional Parameter Domains**  
+  *M. Alghamdi, D. Boffi, F. Bonizzoni*. In preparation.  
+  Focuses on scalable algorithms for detecting and following eigensolution branches in very high-dimensional spaces, with an emphasis on robustness against parameter irregularities.  
+
+- **Learning-Informed Greedy Algorithms**  
+  Extending certified greedy frameworks with machine learning tools (Gaussian Processes, neural networks) to automate eigensolution classification and accelerate parameter selection in complex non-affine settings.
+
+- **Tensor-Train Methods for Parametric Eigenvalue Problems**  
+  Representing families of eigenvectors in Tensor-Train (TT) format to exploit multilinear structure, combined with TT-based sampling strategies as an alternative to sparse grids. 
+
+- **Hybrid TT + Neural Networks + Gaussian Processes**  
+  Investigating how TT compression can improve the scalability of neural networks and Gaussian Processes for surrogate modeling in very high-dimensional domains. 
+
+- **Symbolic Detection of Discrete Symmetries in Evolution Equations**  
+  Developing Mathematica-based algorithms to uncover hidden symmetries in PDEs, going beyond traditional variational or Lie symmetry methods, in order to reduce modeling complexity.
+
+
+---
+
+# Conferences and Workshops
+
+### Conferences
+- ECCOMAS, Oslo (2022) — Contributed Talk  
+- 29th Biennial Numerical Analysis Conference, Strathclyde (2023) — Contributed Talk  
+- 28th International Conference on Domain Decomposition Methods (2024) — Contributed Talk  
+- 7th Chilean Workshop on Numerical Analysis of PDEs (2024) — Contributed Talk  
+- Lions-Magenes Days, Pavia (2024) — Poster  
+- European Congress of Mathematics (ECM), Seville (2024) — Invited Talk
+
+### Workshops and Schools
+- NumPDE Workshop, KAUST (2025) — Contributed Talk  
+- ICTP Summer School on Advances in Condensed Matter Physics, Samarkand (2019)
+ 
+
+---
+# Teaching Experience
+
+### Teaching Experience
+- **Graduate Teaching Assistant**  
+  AMCS 131 (Vector Calculus & Differential Equations) and AMCS 202 (Applied Mathematics II).  
+  Responsibilities included leading recitations, grading, and organizing the Winter School for students needing remediation.  
+
+- **Mentorship**  
+  Supervised Andrea Panozzo, whose Master’s thesis was partially based on my PhD research.  
+
+- **Instructor — Applied Mathematics School (AMS 2023)**  
+  Taught short courses and received the **Best Teacher Award** for outstanding instruction.  
+
+# Honors and Scholarships
+- **KAUST Gifted Student Program Scholarship (KGSP)**  
+  Prestigious full-ride undergraduate scholarship awarded by KAUST, supporting academic excellence abroad.  
+
+- **Saudi Arabia Cultural Mission Scholarship**  
+  Full-ride scholarship covering tuition and expenses during studies at the University of Washington.  
+
+- **KAUST Fellowship for Graduate Studies**  
+  Covers tuition and housing, in addition to providing a monthly stipend during PhD studies.
+
 
 ---
 
