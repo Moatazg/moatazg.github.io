@@ -1,4 +1,4 @@
-# Profile
+
 
 
 Moataz Alghamdi works at the intersection of mathematics, scientific computing, and machine learning, building tools that make complex systems tractable, high-performance, and transparent. He earned a PhD in Applied Mathematics and Computational Sciences from King Abdullah University of Science and Technology (KAUST) under the supervision of Prof. Daniele Boffi. He also holds a BSc in Physics (minor in Mathematics) from the University of Washington-Seattle
@@ -7,7 +7,7 @@ Dr. Alghamdi studies high-dimensional and uncertain systems, developing techniqu
 
 Looking forward, his aim is to translate advanced mathematical theory into explainable, practical systems with sustained impact across disciplines.
 
-
+---
 # Research Outline  
 
 
@@ -24,6 +24,7 @@ Low-rank approximation is pursued via the tensor-train (TT) decomposition techni
 ### 4. Simplifying Complex Mathematical Models
 Focus on parametric PDEs with high-dimensional parameter spaces, formulated at the level of the solution operator and associated spectral maps. Develop certified reduced models that balance fidelity and cost via parameter-aware adaptive sampling and rigorous a posteriori control, while treating spectral structure (eigenvalue branches and eigenspaces) as a primary output for stable mode tracking and provable complexity/accuracy guarantees.
 
+---
 # Publications & Manuscripts
 
 ### Published
