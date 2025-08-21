@@ -2,7 +2,7 @@
 
 Moataz Alghamdi works at the intersection of mathematics, scientific computing, and machine learning, building tools that make complex systems tractable, high-performance, and transparent. He earned a PhD in Applied Mathematics and Computational Sciences from King Abdullah University of Science and Technology (KAUST) under the supervision of Prof. Daniele Boffi. He also holds a BSc in Physics (minor in Mathematics) from the University of Washington-Seattle
 
-Dr. Alghamdi studies high-dimensional and uncertain systems, developing techniques that replace expensive full models with efficient, auditable surrogates. By combining adaptive sampling, probabilistic modeling, and low-rank approximations (including tensor-train decompositions), he enables analyses that would otherwise be computationally prohibitive, supporting design exploration, rigorous uncertainty quantification, and long-horizon decision-making across engineering, scientific computing, finance, and economics.
+In his research, Dr. Alghamdi tackles high-dimensional and uncertain systems by developing efficient surrogates that replace costly full-scale models. Using techniques like adaptive sampling, probabilistic modeling, and low-rank approximations (such as tensor-train decompositions), he makes advanced analyses feasible, enabling thorough design exploration, reliable uncertainty quantification, and informed long-term decisions in engineering, scientific computing, finance, and economics.
 
 Looking forward, his aim is to translate advanced mathematical theory into explainable, practical systems with sustained impact across disciplines.
 
