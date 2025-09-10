@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Profile
-permalink: /about/
 ---
 
 Moataz Alghamdi works at the intersection of mathematics, scientific computing, and machine learning, building tools that make complex systems tractable, high-performance, and transparent. He earned a PhD in Applied Mathematics and Computational Sciences from King Abdullah University of Science and Technology (KAUST) under the supervision of Prof. Daniele Boffi. He also holds a BSc in Physics (minor in Mathematics) from the University of Washington-Seattle
