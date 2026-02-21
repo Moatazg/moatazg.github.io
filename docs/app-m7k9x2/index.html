@@ -1,0 +1,90 @@
+---
+layout: default
+title: Application Materials
+---
+
+<section class="section" style="padding-top: 120px;">
+  <div class="container">
+    <h2 class="section-title">Application Materials</h2>
+    <p class="section-subtitle">Moataz Alghamdi &mdash; documents for review.</p>
+
+    <div class="doc-grid">
+      <a href="cv.pdf" class="doc-card" target="_blank">
+        <div class="doc-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m.75 12l3 3m0 0l3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
+        </div>
+        <div class="doc-info">
+          <h3>Curriculum Vitae</h3>
+          <p>Full academic CV</p>
+        </div>
+      </a>
+
+      <a href="transcripts.pdf" class="doc-card" target="_blank">
+        <div class="doc-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342"/></svg>
+        </div>
+        <div class="doc-info">
+          <h3>Academic Transcripts</h3>
+          <p>University records</p>
+        </div>
+      </a>
+    </div>
+
+    <div style="margin-top: 48px;">
+      <a href="/" class="btn btn-outline">&larr; Back to main site</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .doc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+    margin-top: 8px;
+  }
+  .doc-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 24px 28px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+  }
+  .doc-card:hover {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.06);
+    border-color: #cbd5e1;
+    transform: translateY(-2px);
+    color: inherit;
+  }
+  .doc-icon {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    background: #dbeafe;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .doc-icon svg {
+    width: 24px;
+    height: 24px;
+    color: #2563eb;
+  }
+  .doc-info h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin: 0 0 2px;
+  }
+  .doc-info p {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin: 0;
+  }
+</style>
