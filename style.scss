@@ -375,6 +375,48 @@ a {
   }
 }
 
+.card-details {
+  margin-top: 10px;
+
+  summary {
+    font-size: 0.9rem;
+    color: $text-secondary;
+    line-height: 1.65;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    padding-right: 20px;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::after {
+      content: '+';
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: 1.1rem;
+      font-weight: 300;
+      color: $text-muted;
+      transition: transform 0.2s;
+    }
+  }
+
+  &[open] summary::after {
+    content: '\2212';
+  }
+
+  p {
+    font-size: 0.875rem;
+    color: $text-secondary;
+    line-height: 1.65;
+    margin: 10px 0 0;
+    padding-top: 10px;
+    border-top: 1px solid $border;
+  }
+}
+
 /* ===========================
    PUBLICATIONS
    =========================== */

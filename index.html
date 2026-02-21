@@ -38,13 +38,13 @@ title: Home
     <h2 class="section-title">About</h2>
     <div class="about-text">
       <p>
-        I work at the intersection of mathematics, scientific computing, and machine learning, building tools that make complex systems tractable, high-performance, and transparent.
+        I work at the intersection of mathematics, scientific computing, and machine learning, building tools that make complex systems tractable, high-performance, and transparent. I earned my PhD in Applied Mathematics and Computational Sciences from King Abdullah University of Science and Technology (KAUST) under the supervision of Prof. Daniele Boffi. I also hold a BSc in Physics (minor in Mathematics) from the University of Washington-Seattle.
       </p>
       <p>
-        I earned my PhD in Applied Mathematics and Computational Sciences from King Abdullah University of Science and Technology (KAUST) under the supervision of Prof. Daniele Boffi, and hold a BSc in Physics (minor in Mathematics) from the University of Washington-Seattle.
+        In my research, I tackle high-dimensional and uncertain systems by developing efficient surrogates that replace costly full-scale models. Using techniques like adaptive sampling, probabilistic modeling, and low-rank approximations (such as tensor-train decompositions), I make advanced analyses feasible, enabling thorough design exploration, reliable uncertainty quantification, and informed long-term decisions in engineering, scientific computing, finance, and economics.
       </p>
       <p>
-        My research tackles high-dimensional and uncertain systems by developing efficient surrogates that replace costly full-scale models. Using adaptive sampling, probabilistic modeling, and low-rank approximations such as tensor-train decompositions, I make advanced analyses feasible&mdash;enabling thorough design exploration, reliable uncertainty quantification, and informed long-term decisions across engineering, scientific computing, finance, and economics.
+        Looking forward, my aim is to translate advanced mathematical theory into explainable, practical systems with sustained impact across disciplines.
       </p>
     </div>
   </div>
@@ -59,22 +59,34 @@ title: Home
       <div class="research-card">
         <span class="card-number">01</span>
         <h3>Probabilistic Modeling &amp; Machine Learning</h3>
-        <p>Uncertainty-aware prediction and inference using kernel methods and Gaussian processes. Scalable inference via sparse/Markov and state-space representations, with attention to calibration, robustness, and interpretability.</p>
+        <details class="card-details">
+          <summary>Uncertainty-aware prediction and inference using kernel methods and Gaussian processes.</summary>
+          <p>Gaussian-process priors on function spaces (viewed through the reproducing-kernel Hilbert space lens) treat the kernel as the unifying object linking GPs, graphical/state-space models, and wide-network/linearized neural predictors. Emphasis on scalable inference via sparse/Markov and state-space representations, with attention to calibration, robustness to distribution shift, and interpretability.</p>
+        </details>
       </div>
       <div class="research-card">
         <span class="card-number">02</span>
         <h3>Decision Making in Finance &amp; Economics</h3>
-        <p>Sequential decision-making under uncertainty grounded in dynamic programming, stochastic control, and robust optimization. Applications in investment, forecasting, and resource allocation including Sharia-compliant finance.</p>
+        <details class="card-details">
+          <summary>Sequential decision making under uncertainty grounded in dynamic programming, stochastic control, and robust optimization.</summary>
+          <p>Emphasis on value functions, policy approximation, and risk-sensitive objectives. Probabilistic uncertainty quantification informs policies for investment, forecasting, and resource allocation, with explicit attention to constraints, transparency and the ability to satisfy domain requirements such as Sharia-compliant finance.</p>
+        </details>
       </div>
       <div class="research-card">
         <span class="card-number">03</span>
         <h3>Data Compression with Tensor Trains</h3>
-        <p>Rank-adaptive tensor-train factorizations with perturbation-stable cores and explicit error/complexity control, compressing PDE operators and GP covariances for scalable simulation and inference.</p>
+        <details class="card-details">
+          <summary>Low-rank approximation via the tensor-train (TT) decomposition technique.</summary>
+          <p>The focus is on rank-adaptive TT factorizations with perturbation-stable cores and explicit error/complexity control (cost scaling essentially linearly in dimension for bounded ranks). These TT surrogates compress discretized PDE operators and GP covariances, enabling scalable simulation, inference, and uncertainty quantification, and integrate naturally with kernel and probabilistic models.</p>
+        </details>
       </div>
       <div class="research-card">
         <span class="card-number">04</span>
         <h3>Simplifying Complex Mathematical Models</h3>
-        <p>Certified reduced models for parametric PDEs that balance fidelity and cost via parameter-aware adaptive sampling, treating spectral structure as a primary output for stable mode tracking.</p>
+        <details class="card-details">
+          <summary>Parametric PDEs with high-dimensional parameter spaces, formulated at the level of the solution operator and associated spectral maps.</summary>
+          <p>Develop certified reduced models that balance fidelity and cost via parameter-aware adaptive sampling and rigorous a posteriori control, while treating spectral structure (eigenvalue branches and eigenspaces) as a primary output for stable mode tracking and provable complexity/accuracy guarantees.</p>
+        </details>
       </div>
     </div>
   </div>
@@ -221,11 +233,11 @@ title: Home
         <h3>Teaching</h3>
         <div class="exp-item">
           <h4>Graduate Teaching Assistant</h4>
-          <p>AMCS 131 (Vector Calculus &amp; Differential Equations) and AMCS 202 (Applied Mathematics II). Led recitations, grading, and organized the Winter School for remediation.</p>
+          <p>AMCS 131 (Vector Calculus &amp; Differential Equations) and AMCS 202 (Applied Mathematics II). Responsibilities included leading recitations, grading, and organizing the Winter School for students needing remediation.</p>
         </div>
         <div class="exp-item">
-          <h4>Instructor &mdash; Applied Mathematics School (2023)</h4>
-          <p>Taught short courses and received the Best Teacher Award for outstanding instruction.</p>
+          <h4>Instructor &mdash; Applied Mathematics School (AMS 2023)</h4>
+          <p>Taught short courses and received the <strong>Best Teacher Award</strong> for outstanding instruction.</p>
         </div>
         <div class="exp-item">
           <h4>Mentorship</h4>
@@ -235,16 +247,16 @@ title: Home
       <div class="exp-column">
         <h3>Honors &amp; Scholarships</h3>
         <div class="exp-item">
-          <h4>KAUST Gifted Student Program (KGSP)</h4>
+          <h4>KAUST Gifted Student Program Scholarship (KGSP)</h4>
           <p>Prestigious full-ride undergraduate scholarship awarded by KAUST, supporting academic excellence abroad.</p>
         </div>
         <div class="exp-item">
           <h4>Saudi Arabia Cultural Mission Scholarship</h4>
-          <p>Full-ride scholarship covering tuition and expenses at the University of Washington.</p>
+          <p>Full-ride scholarship covering tuition and expenses during studies at the University of Washington.</p>
         </div>
         <div class="exp-item">
           <h4>KAUST Fellowship for Graduate Studies</h4>
-          <p>Covers tuition and housing, plus monthly stipend during PhD studies.</p>
+          <p>Covers tuition and housing, in addition to providing a monthly stipend during PhD studies.</p>
         </div>
       </div>
     </div>
