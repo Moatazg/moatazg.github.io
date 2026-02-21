@@ -543,30 +543,21 @@ a {
    TEACHING / HONORS
    =========================== */
 
-.exp-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
-
-  @include mobile {
-    grid-template-columns: 1fr;
-    gap: 32px;
-  }
-}
-
-.exp-column h3 {
-  font-size: 1.15rem;
-  font-weight: 600;
-  color: $primary;
-  margin: 0 0 20px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid $accent-soft;
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 800px;
 }
 
 .exp-item {
-  margin-bottom: 20px;
+  padding: 20px 24px;
+  background: $white;
+  border: 1px solid $border;
+  border-radius: 10px;
+  transition: box-shadow 0.2s;
 
-  &:last-child { margin-bottom: 0; }
+  &:hover { box-shadow: $shadow; }
 
   h4 {
     font-size: 0.95rem;
@@ -574,13 +565,10 @@ a {
     color: $darker;
     margin: 0 0 4px;
   }
+}
 
-  p {
-    font-size: 0.875rem;
-    color: $text-secondary;
-    line-height: 1.6;
-    margin: 0;
-  }
+.section-alt .exp-item {
+  background: $white;
 }
 
 /* ===========================
