@@ -607,6 +607,44 @@ a {
 }
 
 /* ===========================
+   SKILLS
+   =========================== */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
+}
+
+.skill-group {
+  padding: 20px 24px;
+  background: $lightest;
+  border: 1px solid $border;
+  border-radius: 10px;
+  transition: box-shadow 0.2s;
+
+  &:hover { box-shadow: $shadow; }
+
+  h4 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $primary;
+    margin: 0 0 6px;
+  }
+
+  p {
+    font-size: 0.825rem;
+    color: $text-secondary;
+    line-height: 1.55;
+    margin: 0;
+  }
+}
+
+/* ===========================
    CONTACT
    =========================== */
 
