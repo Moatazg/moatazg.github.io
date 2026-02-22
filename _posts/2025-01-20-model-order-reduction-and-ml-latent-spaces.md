@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Model Order Reduction and Machine Learning Latent Spaces: Overlaps, Differences, and Synergies"
+---
+
 In the realms of computational science, engineering, and data-driven modeling, two powerful paradigms have emerged to tackle the challenges of high-dimensional dynamical systems: Model Order Reduction (MOR) and machine learning (ML) methods involving latent spaces. MOR, rooted in applied mathematics and control theory, seeks to simplify complex models while preserving essential behaviors. Meanwhile, ML latent spaces, a cornerstone of modern artificial intelligence, provide compressed representations for tasks like prediction and generation. As computational demands grow in fields like fluid dynamics, climate modeling, and structural analysis, these approaches increasingly intersect, offering hybrid solutions that blend rigor with flexibility. This article explores the fundamentals of each field, their overlaps, key differences, and potential synergies, drawing on recent advancements to illustrate their evolving relationship.
 
 ## Understanding Model Order Reduction (MOR)
