@@ -4,14 +4,21 @@ title: Blog
 permalink: /blog/
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-      <h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
-      <div class="entry">
-        {{ post.excerpt }}
+<div class="blog-page">
+  <div class="blog-header">
+    <h1>Blog</h1>
+    <p>Thoughts on mathematics, machine learning, and scientific computing.</p>
+  </div>
+
+  <div class="blog-list">
+    {% for post in site.posts %}
+    <a href="{{ post.url | relative_url }}" class="blog-entry">
+      <div class="blog-entry-content">
+        <h2>{{ post.title }}</h2>
+        <p class="blog-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
       </div>
-      <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+      <span class="blog-date">{{ post.date | date: "%b %e, %Y" }}</span>
+    </a>
+    {% endfor %}
+  </div>
 </div>
