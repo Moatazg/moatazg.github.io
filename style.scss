@@ -578,6 +578,34 @@ a {
   background: $white;
 }
 
+.exp-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+
+  li {
+    position: relative;
+    padding-left: 18px;
+    font-size: 0.875rem;
+    color: $text-secondary;
+    line-height: 1.6;
+    margin-bottom: 8px;
+
+    &:last-child { margin-bottom: 0; }
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 9px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: $primary-light;
+    }
+  }
+}
+
 /* ===========================
    CONTACT
    =========================== */
