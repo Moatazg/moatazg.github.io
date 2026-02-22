@@ -581,27 +581,25 @@ a {
 .exp-bullets {
   list-style: none;
   padding: 0;
-  margin: 8px 0 0;
+  margin: 12px 0 0;
 
   li {
     position: relative;
-    padding-left: 18px;
+    padding-left: 22px;
     font-size: 0.875rem;
     color: $text-secondary;
     line-height: 1.6;
-    margin-bottom: 8px;
+    margin-bottom: 14px;
 
     &:last-child { margin-bottom: 0; }
 
     &::before {
-      content: '';
+      content: '\2014';
       position: absolute;
       left: 0;
-      top: 9px;
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: $primary-light;
+      top: 0;
+      color: $primary-light;
+      font-weight: 600;
     }
   }
 }
