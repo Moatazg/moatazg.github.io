@@ -79,7 +79,7 @@ title: Home
         <span class="card-number">01</span>
         <h3>Probabilistic Modeling &amp; Machine Learning</h3>
         <details class="card-details">
-          <summary>Building models that know what they don't know &mdash; using Gaussian processes and kernel methods for prediction with calibrated uncertainty.</summary>
+          <summary>Building models that know what they don't know - using Gaussian processes and kernel methods for prediction with calibrated uncertainty.</summary>
           <p>Kernel functions serve as the common thread connecting Gaussian processes, state-space models, and neural network approximations. The focus is on making inference scale to large problems while keeping predictions well-calibrated, robust, and interpretable.</p>
         </details>
       </div>
@@ -132,7 +132,7 @@ title: Home
         <h4 class="pub-title">Data-Driven Method for Parametric PDE Eigenvalue Problems Using Gaussian Processes</h4>
         <p class="pub-authors">M. Alghamdi, F. Bertrand, D. Boffi, A. Halim</p>
         <p class="pub-venue">Computational Methods in Applied Mathematics</p>
-        <p class="pub-desc">Proposed a Gaussian process–based, data-driven surrogate modeling approach for parametric PDE eigenvalue problems, enabling accurate and uncertainty-aware approximation of eigenvalue trajectories in non-affine and irregular parameter regimes.</p>
+        <p class="pub-desc">Proposed a Gaussian process-based, data-driven surrogate modeling approach for parametric PDE eigenvalue problems, enabling accurate and uncertainty-aware approximation of eigenvalue trajectories in non-affine and irregular parameter regimes.</p>
       </div>
 
       <!-- In Progress -->
@@ -166,7 +166,7 @@ title: Home
 
       <div class="pub-item">
         <h4 class="pub-title">Symmetry Detection in Evolution Equations</h4>
-        <p class="pub-desc">Building symbolic algorithms for the automated detection of discrete symmetries in evolution equations &mdash; going beyond classical Lie symmetry methods to uncover structure that can simplify analysis and reduce computational cost.</p>
+        <p class="pub-desc">Building symbolic algorithms for the automated detection of discrete symmetries in evolution equations - going beyond classical Lie symmetry methods to uncover structure that can simplify analysis and reduce computational cost.</p>
       </div>
     </div>
   </div>
@@ -247,7 +247,7 @@ title: Home
         <p>AMCS 131 (Vector Calculus &amp; Differential Equations) and AMCS 202 (Applied Mathematics II). Responsibilities included leading recitations, grading, and organizing the Winter School for students needing remediation.</p>
       </div>
       <div class="exp-item">
-        <h4>Instructor &mdash; Applied Mathematics School (AMS 2023)</h4>
+        <h4>Instructor - Applied Mathematics School (AMS 2023)</h4>
         <p>Taught short courses and received the <strong>Best Teacher Award</strong> for outstanding instruction.</p>
       </div>
       <div class="exp-item">
@@ -312,8 +312,76 @@ title: Home
   </div>
 </section>
 
+<!-- Selected Projects -->
+<section class="section section-alt" id="projects">
+  <div class="container">
+    <h2 class="section-title">Selected Projects</h2>
+
+    <div class="project-list">
+      <details class="project-item">
+        <summary>
+          <h4 class="project-title">Time-Series Structural Break Detection</h4>
+          <span class="project-meta">ADIA Lab Challenge &middot; Python, Machine Learning, Docker</span>
+        </summary>
+        <ul class="project-bullets">
+          <li>Achieved a ROC AUC of 0.742 on a hidden test set, while reducing feature-pipeline runtime by 46% through vectorized rolling statistics in Python.</li>
+          <li>Packaged training and cross-validation into a reproducible CLI and Docker workflow for consistent benchmarking and deployment.</li>
+        </ul>
+      </details>
+
+      <details class="project-item">
+        <summary>
+          <h4 class="project-title"><a href="https://github.com/Moatazg/pde-symmetry-analysis" target="_blank">Symbolic Symmetry Analysis for Evolution Equations</a></h4>
+          <span class="project-meta">Python, SymPy</span>
+        </summary>
+        <ul class="project-bullets">
+          <li>Implemented a symbolic framework for detecting permutation and parity symmetries in evolution equations, translating ideas from my M.S. thesis into a reusable Python codebase.</li>
+          <li>Developed routines for symmetry validation under variable permutations, sign flips, equation reordering, and per-equation sign changes.</li>
+          <li>Automated group-based symmetrization of expressions and provided runnable demos for small PDE and ODE systems.</li>
+        </ul>
+      </details>
+
+      <details class="project-item">
+        <summary>
+          <h4 class="project-title"><a href="https://github.com/Moatazg/FeW-TightBinding-Multilayer-kubo" target="_blank">Multilayer Tight-Binding for Spintronic Heterostructures</a></h4>
+          <span class="project-meta">Mathematica, Python &middot; <a href="https://github.com/Moatazg/slater-koster-multilayer" target="_blank">Slater-Koster repo</a></span>
+        </summary>
+        <ul class="project-bullets">
+          <li>Developed multilayer tight-binding workflows for ferromagnet/normal-metal stacks, including Fe/W systems, with support for band structures, total and layer-resolved density of states, and Kubo-style conductivity calculations.</li>
+          <li>Implemented both a Fe/W-focused s-d basis model and a more general Slater-Koster multilayer workflow.</li>
+          <li>Organized outputs for straightforward comparison across simulation scenarios and downstream analysis.</li>
+        </ul>
+      </details>
+
+      <details class="project-item">
+        <summary>
+          <h4 class="project-title"><a href="https://github.com/Moatazg/FeS-Tight-Binding-Toolkit" target="_blank">FeS Tight-Binding and Band-Structure Toolkit</a></h4>
+          <span class="project-meta">Python</span>
+        </summary>
+        <ul class="project-bullets">
+          <li>Reproduced and extended the FeS.nb workflow in Python, including Hamiltonian extraction, configurable high-symmetry paths, and density-of-states calculation with Gaussian broadening.</li>
+          <li>Implemented eigenvector-overlap band tracking to avoid label swaps at avoided crossings and improve the stability of band-structure outputs.</li>
+          <li>Packaged the workflow into reusable modules and CLI tools for portable, reproducible runs.</li>
+        </ul>
+      </details>
+
+      <details class="project-item">
+        <summary>
+          <h4 class="project-title"><a href="https://github.com/Moatazg/surface-dispersion-analysis" target="_blank">Surface Dispersion and Symmetry Analysis Toolkit</a></h4>
+          <span class="project-meta">Python</span>
+        </summary>
+        <ul class="project-bullets">
+          <li>Built a Python port of the surface-dispersion Mathematica workflow for eigendecomposition, symmetry and commutation checks, centralizer computation, and pseudo-Hermitian matrix construction.</li>
+          <li>Exposed the core workflow as a small library with CLI demos reproducing the notebook computations end to end.</li>
+          <li>Added tests and package structure to support verification, reuse, and extension.</li>
+        </ul>
+      </details>
+    </div>
+  </div>
+</section>
+
 <!-- Contact -->
-<section class="section section-alt" id="contact">
+<section class="section" id="contact">
   <div class="container">
     <h2 class="section-title">Get in Touch</h2>
     <p class="section-subtitle">Feel free to reach out for research collaborations, speaking invitations, or other opportunities.</p>
