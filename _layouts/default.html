@@ -61,6 +61,21 @@
       window.addEventListener('scroll', () => {
         document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 50);
       });
+      // Reveal email and copy to clipboard
+      function revealEmail(btn) {
+        var email = 'moataz.alghamdi@alumni.kaust.edu.sa';
+        var label = btn.querySelector('.email-label');
+        if (label.textContent === 'Email') {
+          navigator.clipboard.writeText(email);
+          label.textContent = email + '  —  Copied!';
+          btn.classList.add('email-revealed');
+          setTimeout(function() { label.textContent = email; }, 2000);
+        } else {
+          navigator.clipboard.writeText(email);
+          label.textContent = email + '  —  Copied!';
+          setTimeout(function() { label.textContent = email; }, 2000);
+        }
+      }
       // Smooth scroll (only for same-page anchors)
       document.querySelectorAll('a[href*="#"]').forEach(a => {
         a.addEventListener('click', e => {
